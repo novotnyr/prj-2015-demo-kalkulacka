@@ -35,4 +35,10 @@ public class KalkulackaTest {
         Assert.assertEquals(120, vysledok);
     }
 
+    @Test(timeout = 1000)
+    public void testOdmocnina() {
+        int vysledok = (int) kalkulacka.druhaOdmocnina(-64);
+        Assert.assertEquals(-8, vysledok);
+    }
+
 }

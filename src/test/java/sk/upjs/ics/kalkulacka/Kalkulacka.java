@@ -13,4 +13,8 @@ public class Kalkulacka {
         return cinitel1 * cinitel2;
     }
 
+    public double druhaOdmocnina(int cislo) {
+        return Math.sqrt(cislo);
+    }
+
 }
