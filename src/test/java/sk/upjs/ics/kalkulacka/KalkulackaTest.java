@@ -28,4 +28,11 @@ public class KalkulackaTest {
     public void testDelenieNulou() {
         int podiel = kalkulacka.vydel(4, 0);
     }
+
+    @Test(timeout = 1000)
+    public void testNasobanie() {
+        int vysledok = kalkulacka.nasob(10, 12);
+        Assert.assertEquals(120, vysledok);
+    }
+
 }

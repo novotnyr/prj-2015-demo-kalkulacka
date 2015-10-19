@@ -8,4 +8,9 @@ public class Kalkulacka {
     public int vydel(int delenec1, int delitel) {
         return delenec1 / delitel;
     }
+
+    public int nasob(int cinitel1, int cinitel2) {
+        return cinitel1 * cinitel2;
+    }
+
 }
